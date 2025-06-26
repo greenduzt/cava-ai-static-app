@@ -9,9 +9,9 @@ function App() {
   const handleSupportClick = () => {
     setShowSupport(true);   
   }
-
+  console.log("Testing")
   console.log("VITE ENV VARS:", import.meta.env);
-  
+
   return (
     
     <div>
