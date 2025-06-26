@@ -10,7 +10,10 @@ function App() {
     setShowSupport(true);   
   }
 
+  console.log("VITE ENV VARS:", import.meta.env);
+  
   return (
+    
     <div>
       <header className="header">
         <img src={icon} alt="Cafe AI" className="logo-icon" />
