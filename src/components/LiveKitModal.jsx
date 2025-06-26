@@ -10,7 +10,7 @@ const LiveKitModal = ({ setShowSupport }) => {
 
   const getToken = useCallback(async (userName) => {
   try {
-    
+    // Getting the token from the backend
     const response = await fetch(`${import.meta.env.VITE_API_URL}/getToken?name=${userName}`);
     const token = await response.text();
     setToken(token);
