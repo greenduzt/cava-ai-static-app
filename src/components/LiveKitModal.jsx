@@ -8,6 +8,7 @@ const LiveKitModal = ({ setShowSupport }) => {
   const [name, setName] = useState("");
   const [token, setToken] = useState(null);
 
+  // Function to fetch the token from the server
   const getToken = useCallback(async (userName) => {
   try {
 
