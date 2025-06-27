@@ -53,7 +53,7 @@ const LiveKitModal = ({ setShowSupport }) => {
                     </form>
                 ) : token ? (
                   <LiveKitRoom
-                    serverUrl={import.meta.env.VITE_LIVEKIT_URL}
+                    serverUrl={"wss://cavaagent-8ar4xmei.livekit.cloud"}
                     token={token}
                     connect={true}
                     video={false}
