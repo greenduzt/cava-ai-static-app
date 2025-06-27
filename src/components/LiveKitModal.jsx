@@ -12,6 +12,7 @@ const LiveKitModal = ({ setShowSupport }) => {
   try {
 
     //const response = await fetch(`${import.meta.env.VITE_API_URL}/getToken?name=${userName}`);
+    // Uncomment the line below to use the environment variable for API URL
     const response = await fetch('https://url-prefix-gqb6cccdewfjbxeq.australiasoutheast-01.azurewebsites.net/getToken?name=' + userName);
 
     const token = await response.text();
